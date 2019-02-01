@@ -1,0 +1,8 @@
+-includeresource             :  run  
+-runfw                       :  org.apache.felix.framework
+-runee                       :  JavaSE-1.8
+-runproperties               :  felix.log.level=4
+-runbundles                  :  \
+	org.osgi.service.cm,\
+	org.osgi.service.log,\
+	org.apache.felix.configadmin
